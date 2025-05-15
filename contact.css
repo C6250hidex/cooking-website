@@ -1,0 +1,659 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding:2.5% 5%;
+    border-bottom:2px solid #cfc8c8 ;
+    align-items: center;
+}
+header nav ul li{
+    float: left;
+    padding-left: 30px;
+    font-size: 1.5rem;
+}
+header nav ul li a{
+    color: black;
+}
+header nav figure img{
+    padding-left: 30px;
+}
+main{
+    margin: 6%;
+}
+.japan{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 5em;
+}
+.japan .fried{
+    width: 63.5%;
+}
+.japan .fried p{
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.japan .fried figure{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 4em;
+}
+.japan .fried figure img{
+    border-right: 1px solid rgb(237, 236, 236);
+    padding:0  10px 0 0;
+}
+.japan .fried figure img:last-of-type{
+    border: none;
+}
+.japan aside{
+    width: 40%;
+}
+.japan aside figure{
+    display: flex;
+    gap: 20px;
+    margin-left: 59%;
+    margin-top: 4em;
+}
+.japan aside div{
+     background-color:hsl(190, 92%, 95%) ;
+     padding: 6%;
+     width: 100%;
+     margin-top: 4em;
+     border-radius: 20px;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     -ms-border-radius: 20px;
+     -o-border-radius: 20px;
+}
+.japan aside div .nut{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.japan aside div article{
+    border-bottom: 1px solid rgb(224, 222, 222);
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.5;
+}
+.japan aside div .dolor{
+    margin-top: 8em;
+    opacity: 0.5;
+    text-align: center;
+}
+.Ingredient{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 3.5em;
+    justify-content: space-between;
+}
+.Ingredient .for{
+    width:60% ;
+}
+.dient{
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+.ing{
+    font-size: 2em;
+}
+.sauce{
+    margin-top: 2.5em;
+} 
+.lor{
+    display:flex;
+    align-items: start;
+    border-bottom: 2px solid rgb(190, 185, 185);
+    padding: 2em 0;
+    gap: 20px;
+}
+.dish .lor:has(input[type="radio"]:checked){
+    text-decoration: line-through;
+} 
+.lor label p{
+    opacity: 0.5;
+}
+.Ingredient aside{
+    width: 40%;
+}
+.Ingredient aside figure{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 1em;
+}
+.Ingredient aside figure img{
+    width: 40%;
+    border-radius: 20px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.Ingredient aside figure p:first-of-type{
+    font-weight: bold;
+    font-size: 1em;
+
+}
+.Ingredient aside figure p:last-of-type{
+    opacity: 0.5;
+}
+.direction {
+    width: 60%;
+}
+.direction p:nth-of-type(1){
+    font-size: 3em;
+}
+.direction div figure{
+    width: 100%;
+}
+.direction div figure img{
+    border-radius: 30px;
+    width: 100%; 
+    object-fit: cover;
+    height: 50vh;
+    margin: 2em 0;
+}
+.direction div {
+    display: flex;
+    gap: 20px;
+    align-items: start;
+    padding: 3em 0;
+    border-bottom: 2px solid rgb(190, 185, 185);
+}
+.direction div p:first-of-type{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: -6px;
+    padding-bottom: 1em;
+}
+.direction div p:last-of-type,.pp{
+    opacity: 0.5;
+}
+/* blog */
+.blog{
+    text-align: center;
+}
+.blog p:first-of-type{
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+.blog p:last-of-type{
+    opacity: 0.5;
+}
+.blog div{
+    display: flex;
+    width: 50%;
+    height: 10vh;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid rgb(180, 175, 175);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 4em 25%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.blog div input{
+    padding: 15px;
+    width: 90%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.blog div a{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.Crochet{
+    margin-bottom: 8em;
+}
+.Crochet article{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.Crochet article .project{
+    width: 55%;
+} 
+.Crochet form{
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 5em 0 3em;
+}
+.Crochet form button{
+    padding: 25px 30px;
+    border-radius:20px;
+    background-color: #fff;
+    color: black;
+    border: 1px solid lightgrey;
+    font-size: 1em;
+    font-weight: bold;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+.Crochet form button:first-child{
+    background-color: black;
+    color: white;
+}
+.Crochet form button:nth-of-type(6){
+    padding: 25px 26px;
+}
+.project figure{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 2em;
+}
+.project figure .lover{
+    width: 40%;
+    height: 25vh;
+    border-radius: 20px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.noodle{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 0.9em;
+}
+.noodle +p{
+    opacity: 0.5;
+}
+.chidex{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: 2em;
+    width:50%;
+}
+.chidex img{
+    width: 25%;
+    height: 5.5vh;
+    border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.chidex img + p{
+    font-weight: bold;
+}
+.may .chidex + p{
+    width: 35%;
+    height: 5vh;
+    font-weight:bold ;
+    margin-top: 2em;
+  border-left: 1px solid rgb(214, 210, 210);
+  padding:9px 0  0 20px ;
+  opacity: 0.5;
+}
+.may{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.Crochet article aside{
+    width: 40%;
+}
+.Crochet aside figure{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 1em;
+}
+.Crochet aside figure img{
+    width: 40%;
+    border-radius: 20px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.Crochet aside figure p:first-of-type{
+    font-weight: bold;
+    font-size: 1em;
+
+}
+.Crochet aside figure p:last-of-type{
+    opacity: 0.5;
+}
+.dient{
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+.guide{
+    width: 100%;
+}
+.guide p:first-child{
+    font-size: 3.73em;
+    font-weight: bold;
+}
+.guide figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 2.5em;
+}
+.guide figure .many{
+    width: fit-content;
+    font-weight: bold;
+    opacity: 0.5;
+}
+.guide figure div{
+    display: flex;
+    align-items: center;
+    width:20%;
+    font-weight: bolder;
+    font-size: 1.2em;
+    gap: 15px;
+    border-right: 2px solid rgb(239, 236, 236);
+}
+.guide figure div img{
+    width: 20%;
+    border-radius: 4em;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.guide .sit {
+    text-align: center;
+    opacity: 0.5;
+    font-weight: bold;
+    margin: 4em 0 5em;
+}
+.guide .mask{
+    width: 100%;
+    margin-bottom: 6em;
+}
+.industry{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.industry article{
+    width: 70%;
+}
+
+.industry article div p:first-of-type{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    margin-left: 2em;
+}
+.industry article div p:nth-of-type(2){
+    opacity: 0.5;
+    margin-bottom: 5em;
+    margin-left: 2em;
+}
+.industry article div p:nth-of-type(3){
+    background: linear-gradient(100deg,lightgray,white);
+    font-size: 2em;
+    line-height: 1.5;
+    padding: 1em;
+    border-top: 2px solid rgb(202, 201, 201);
+    border-bottom: 2px solid rgb(202, 201, 201);
+    margin-bottom: 2em;
+}
+.industry article div img{
+    width:100%;
+    height: 60vh;
+    border-radius: 30px;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.industry aside{
+    width: 25%;
+    
+}
+.industry aside p{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.industry aside figure img{
+    display: block;
+    margin: 2em 30%;
+
+}
+
+.deliciousness-inbox-container{
+    background-color:hsl(190, 92%, 95%) ;
+    border-radius: 20px;
+    width: 100%;
+    height: 60vh;
+    padding: 2em 0 0;
+    margin-top: 2em;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.your{
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+.your p:first-of-type{
+    font-size: 2.3em;
+    font-weight: bold;
+}
+.your p:last-of-type{
+    opacity: 0.5;
+    margin-top: 10px;
+}
+ .deliciousness-inbox-container figure{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.deliciousness-inbox-container figure div{
+    display: flex;
+    width: 35%;
+    height: 10vh;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.deliciousness-inbox-container figure div input{
+    padding: 15px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.deliciousness-inbox-container figure div a{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.deliciousness-inbox-container figure img{
+    width: 30%;
+}
+.deliciousness-inbox-container figure .fool{
+    margin-top: 4px;
+    border-radius: 0 0 20px 0;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.deliciousness-inbox-container figure .food{
+    margin-top: -102px;
+    width: 30%;
+    border-radius: 0 0 0 20px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.try-this-recipe, .try-this{
+    text-align: center;
+    margin-top: 10em;
+}
+
+.try-this-recipe p, .try-this p{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.try-this-recipe figure, .try-this figure{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 4em;
+}
+.try-this-recipe figure img, .try-this figure img{
+    width: 23.65%;
+}
+.contactus p{
+    font-size: 3em;
+    font-weight: bolder;
+    margin-bottom: 2em;
+    margin-left: 33%;
+}
+.contactus button{
+    background-color: black;
+    color: #fff;
+    padding: 1.5em;
+    width: 15%;
+    border-radius: 20px;
+    margin: 3.5em 35% 8em;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    gap: 3.2em;
+    
+}
+.contact figure{
+    width: 30%;
+    background: linear-gradient(white,  hsl(190, 92%, 95%) );
+    border-radius: 0 0 20px 20px;
+    padding:  0 30px ;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.contact figure img{
+    width: 100%;
+}
+.contact form{
+    width: 70%;
+     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.contact form div input, select{
+    width: 26em;
+    display: block;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    outline: 2px solid lightgray;
+    opacity: 0.5;
+    margin-top: 20px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.contact form div textarea{
+    display: block;
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+    outline:2px solid lightgray;
+    opacity: 0.5;
+    margin-top: 20px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+footer{
+    margin: 8em 0 1em;
+
+}
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    padding:2% 6%;
+    border-bottom:2px solid #cfc8c8 ;
+    align-items: center;
+}
+footer nav ul li{
+    float: left;
+    padding-left: 30px;
+    font-size: 1.5rem;
+}
+footer nav ul li a{
+    color: black;
+}
+footer figure{
+    display: flex;
+    width: 60%;
+    margin-top: 2em;
+    margin-left: 35%;
+    align-items: center;
+    justify-content: space-between;
+}
+footer figure img{
+    padding-left: 30px;
+
+}
+footer figure a{
+    color: rgb(228, 13, 13);
+    font-weight: bold;
+}
